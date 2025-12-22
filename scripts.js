@@ -5,7 +5,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; 
-const API_KEY = "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"; 
+const API_KEY = "API KEY"; 
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className, isLoading = false) => {
@@ -115,3 +115,4 @@ document.querySelector('.close-btn').addEventListener('click', () => {
 sendChatBtn.addEventListener("click", handleChat);
 closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
